@@ -3,7 +3,7 @@ const infoDiv = document.getElementById('info');
 const words = [
     'javascript',
     'java',
-    'mokney',
+    'monkey',
     'abc'
 ];
 const draws = [
