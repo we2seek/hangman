@@ -1,0 +1,38 @@
+html {
+    --french-lilac: #966b9dff;
+    --old-rose: #c98686ff;
+    --mellow-apricot: #f2b880ff;
+    --seashell: #fff4ecff;
+    --champagne-pink: #e7cfbcff;
+
+    --bg-color: #fff;
+    --font-color: #333;
+    --font-color-light: #888;
+}
+
+body {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 95vh;
+}
+
+h1 {
+    font-weight: normal;
+    color: var(--font-color-light);
+}
+
+#answer {
+    text-align: center;
+    font-size: 48px;
+}
+
+#info {
+    margin-top: 16px;
+    color: var(--font-color-light);
+}
